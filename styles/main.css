@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: url('images/background.jpg');
+}
+
+body {
+    width: 1250px;
+    margin: 50px auto;
+    background: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+    box-shadow: 1px 2px 4px 2px gray;
+}
+
+header {
+    width: 1250px;
+    height: 70px;
+    font-weight: bold;
+    background: rgb(1, 0, 39);
+}
+
+#titleheader {
+    display: inline-block;
+    color: white;
+    margin: 20px 20px;
+    font-size: 2em;
+}
+
+#navimage {
+    float: right;
+    height: 70px;
+}
+
+nav {
+    width: 150px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 388px;
+    background: rgb(127, 185, 220);
+    color: rgb(1, 0, 39);
+}
+
+nav a {
+    display: inline-block;
+    color: rgb(1, 0, 39);
+    margin-left: 20px;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    width: 1100px;
+    height: 450px;
+    float: right;
+    font-size: 1.1em;
+}
+
+.heading {
+    color:rgb(127, 185, 220);
+    margin: 20px;
+}
+
+#mainimage {
+    float: left;
+    margin-left: 20px; 
+}
+
+.article {
+    margin-top: 20px;
+    margin-left: 370px;
+}
+
+#trails {
+    font-size: 1.4em;
+    color: rgb(1, 0, 39);
+}
+
+address {
+    clear: both;
+    font-style: normal;
+    margin: 80px 0 20px 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+}
